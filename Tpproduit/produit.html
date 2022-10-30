@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product</title>
+    <link rel="stylesheet" href="produit.css">
+</head>
+<body>
+    <form method="post" action="insertion.php">
+        <fieldset id="section">
+            <legend>
+                Enregistrement Produit
+            </legend>
+            <h1>Remplissez les champs</h1>
+            <input type="text" name="intitule"  id="#" placeholder="Intitulé" required="required"><br>
+            <input type="number" min="0" name="pA"  id="#" placeholder="Prix d'achat" required="required"><br>
+            <input type="number" min="0" name="pV"  id="#" placeholder="Prix de vente" required="required"><br>
+            <input type="number" min="0"  name="qte"  id="#" placeholder="Quantité" required="required">
+        </fieldset>
+        <input type="submit"  value="Enregistrer" name="Enregistrer">
+       
+    </form>
+</body>
+</html>
